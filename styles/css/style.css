@@ -47,13 +47,15 @@ body {
 
 a, #call {
 	margin-top: 25px;
+	display:inline-block;
+	overflow:hidden;
+	background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2018-04-04&kind=iossoftware&bubble=ios_apps) no-repeat;
+	background-size: auto 100%;
+	width:135px;
+	height:40px;
 }
 
 @media (max-width: 1000.98px) {
-	body {
-	  font-size: 14px;
-	}
-
 	#slogan {
 		line-height: 4rem;
 		margin-top: 32px;
@@ -68,4 +70,41 @@ a, #call {
 		width: 75vw;
 		margin-top: 57px;
 	}
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2),
+
+  only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1)
+
+  {
+
+	body {
+		margin: 6rem 4rem 4rem 4rem;
+	}
+
+	#logo {
+		height: 40px;
+	}
+
+	#slogan {
+		font-size: 84px;
+		line-height: 10rem;
+	}
+
+	.content {
+		width: 75vw;
+		font-size: 24px;
+	}
+
+	a, #call {
+		width:270px;
+		height:80px;
+	}
+
 }
