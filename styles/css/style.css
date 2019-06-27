@@ -105,6 +105,11 @@ a, #call {
 	a, #call {
 		width:270px;
 		height:80px;
+		margin-top: 25px;
+	}
+
+	#disclaimer {
+		font-size: 14px;
 	}
 
 }
