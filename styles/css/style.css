@@ -1,0 +1,71 @@
+@import url("https://use.typekit.net/xkc7zmp.css");
+
+::selection {
+    background-color: rgb(255, 149, 0);
+    color: #fff;
+}
+
+html, body {
+	background-color: black;
+	color: white;
+}
+
+body {
+	font-family: '-apple-system', 'Helvetica Neue', 'Segoe UI', sans-serif;
+	font-weight: 500;
+	margin: 3rem 2rem 2rem 2rem;
+	font-size: 13px;
+	text-rendering: 'optimizeLegibility';
+	-webkit-font-smoothing: 'antialiased';
+	padding-bottom: 6rem;
+}
+
+#logo {
+	height: 20px;
+	width: auto;
+}
+
+#slogan {
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 8rem;
+}
+
+.content {
+	font-size: 18px;
+	font-weight: 600;
+	/* line-height: 4rem; */
+	width: 40vw;
+	margin-top: 25px;
+}
+
+#disclaimer {
+	color: lightslategray;
+	font-size: 12px;
+}
+
+
+a, #call {
+	margin-top: 25px;
+}
+
+@media (max-width: 1000.98px) {
+	body {
+	  font-size: 14px;
+	}
+
+	#slogan {
+		line-height: 4rem;
+		margin-top: 32px;
+		margin-bottom: 25px;
+	}
+
+	a, #call {
+		margin: 0;
+	}
+  
+	.content {
+		width: 75vw;
+		margin-top: 57px;
+	}
+}
